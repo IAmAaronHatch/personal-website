@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../App.css'
 import '../reset.css';
 import github from '../assets/github-transparent.png';
@@ -18,20 +18,20 @@ import aaron from '../assets/personalPic.jpeg';
 class Home extends Component {
   constructor() {
     super();
-    
+
   }
   handleScrollToElement(e) {
     const tesNode = ReactDOM.findDOMNode(this.refs[e])
     window.scrollTo({ top: tesNode.offsetTop, behavior: 'smooth' });
   }
-  
+
   render() {
     return (
       <div className="App">
         <nav className='nav'>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('home')}>Home</p>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('skills')}>Skills</p>
-          <p className='nav-option text' onClick={() => this.handleScrollToElement('projects') }>Projects</p>
+          <p className='nav-option text' onClick={() => this.handleScrollToElement('projects')}>Projects</p>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('contact')}>Contact</p>
         </nav>
 
@@ -42,12 +42,12 @@ class Home extends Component {
           <p className='title text' >WEB DEVELOPER</p>
           <div className='intro'>
             <p className='text about'>Hi, My name is Aaron Hatch. I'm a Web Developer with a passion for Design, and the drive to learn new things. I want the opportunity to expand my knowledge through development.
-            <br/>
-            <br/>
-             I love to solve puzzles. I believe working through and solving problems is one of the most rewarding feelings.  When I'm not coding, I enjoy travelling, filming, drawing, painting, and spending time with people I am close with. I love to create. 
-             <br/>
-            <br/>
-             I'm always looking for another project to throw myself into and would love to work and learn with you. </p>
+            <br />
+              <br />
+              I love to solve puzzles. I believe working through and solving problems is one of the most rewarding feelings.  When I'm not coding, I enjoy travelling, filming, drawing, painting, and spending time with people I am close with. I love to create.
+             <br />
+              <br />
+              I'm always looking for another project to throw myself into and would love to work and learn with you. </p>
           </div>
         </div>
         <div className='section' id='skills' ref='skills'>
@@ -60,27 +60,29 @@ class Home extends Component {
             <img src={rd} alt='' className='skill-icon' />
             <img src={node} alt='' className='skill-icon' />
             <img src={pg} alt='' className='skill-icon' />
-            
+
 
             <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL  </p>
           </div>
 
         </div>
         <div className='section' id='projects' ref='projects'>
-        <h1 className='label text'>projects</h1>
-        <nav className='project-container'>
+          <h1 className='label text'>projects</h1>
+          <nav className='project-container'>
             <Link to='/studio'>
-            <div className='project text'>Threddit</div> 
+              <div className='project text'>Threddit</div>
             </Link>
             <Link to='/kwizz'>
-            <div className='project text'>Silver Platter</div> 
+              <div className='project text'>Silver Platter</div>
             </Link>
-        </nav> 
-        </div> 
+          </nav>
+        </div>
 
         <div className='section' id='contact' ref='contact'>
           <h1 className='label text' id='contact-word'>contact</h1>
-          <img className='pic-me' src={aaron} alt='charles' />
+          <div >
+            <img className='pic-me' src={aaron} alt='charles' />
+          </div>
 
           <div className='contact-info'>
 

@@ -79,7 +79,6 @@ a{
 #skills{
   padding-top: 8vh;
   box-sizing: border-box;
-  background: url('https://images.unsplash.com/photo-1521884046121-3f63080df75f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7cfb2985316f011529a8f71c13fcb1&auto=format&fit=crop&w=634&q=80') center no-repeat;
   background-attachment: fixed;
   height: 100vh;
 }
@@ -178,7 +177,7 @@ a{
     background: none;
   }
   #skills{
-    background: url('https://images.unsplash.com/photo-1517815558311-868d35dee98c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a206d9bea1f9e9be486a851f85789950&auto=format&fit=crop&w=1350&q=80') center  no-repeat;
+    
     background-size: cover;
   }
  
