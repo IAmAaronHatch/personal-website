@@ -29,7 +29,7 @@ export default class extends Component {
               Github Repo
             </a>
             <br /> <br />
-            <a href="" style={styles}>
+            <a href="https://threddit.iamaaronhatch.com/#/" style={styles}>
               Click here to visit the live site!
             </a>
           </p>
