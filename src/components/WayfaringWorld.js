@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Threddit1 from "../assets/Threddit1.png";
 import Threddit2 from "../assets/Threddit2.png";
+import Threddit3 from "../assets/thred3.png";
 import { Link } from "react-router-dom";
 
 const styles={
@@ -35,6 +36,7 @@ export default class extends Component {
           </p>
           <img className="project-preview" src={Threddit1} alt="home page" />
           <img className="project-preview" src={Threddit2} alt="home page" />
+          <img className="project-preview" src={Threddit3} alt="home page" />
           <p className="text about" id='whiteText'>
             Technologies Used: React, Redux, Node, Express, Auth0, 
           </p>

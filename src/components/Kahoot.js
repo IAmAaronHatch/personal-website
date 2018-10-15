@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import homePage from '../assets/KWIZZ.png';
 import SilverP1 from '../assets/SilverP1.jpg'
+import SilverP2 from '../assets/silp2.jpg'
+import SilverP3 from '../assets/slp3.jpg'
 import {Link} from 'react-router-dom';
 
 const styles = {
@@ -19,6 +21,8 @@ export default class  extends Component {
                 <br/>
                 <br/><a href='https://silverplatter.aaronharrisinfo.com' style={styles}>Silver Platter Live Site</a></p>
                    <img className='project-preview' src={SilverP1} alt='home page' />
+                   <img className='project-preview' src={SilverP2} alt='home page' />
+                   <img className='project-preview' src={SilverP3} alt='home page' />
                    <p className='text about' >Technologies used: React, Redux, Node, Express, Esri, Massive, Auth0, Jest</p>
                    <Link to='/' className='text'>Home</Link>
                 </div> 

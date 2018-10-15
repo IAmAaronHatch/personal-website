@@ -64,7 +64,7 @@ a{
 .about{
   background: #36363661;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   padding: 3vw;
   box-sizing: border-box;
   border-radius: 2px;
@@ -85,6 +85,7 @@ a{
 #projects{
   height: 90vh;
   padding-top: 8vh;
+  margin-bottom: 20vh;
 }
 .project-container{
   display: flex;
@@ -163,11 +164,16 @@ a{
     background-attachment: fixed;
     background-size: cover;
   }
+  .intro {
+    height: 30vh;
+    padding-top: 7vh;
+  }
   .section{
     padding: 0 12.5vw;
   }
   #home{
-    padding: 20vh 12.5vw 0 12.5vw;
+    padding: 25vh 12.5vw 0 12.5vw;
+    margin-bottom: 50vh;
   }
   #contact{
     display: flex;
@@ -243,7 +249,7 @@ a{
   }
   .project{
     background: #8787872d;
-    transition: 250ms
+    transition: 250ms;
   }
   .project:hover{
     transform: scale(1.2);
@@ -262,5 +268,15 @@ a{
     margin-top: 37px;
     width: 200px;
     height: 200px;
+  }
+  #jsPic {
+    height: 15vh;
+    padding-top: 10px;
+  }
+  #reactPic {
+    height: 15vh;
+  }
+  #nodePic {
+    height: 16vh;
   }
 }

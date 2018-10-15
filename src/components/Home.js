@@ -15,6 +15,8 @@ import html from '../assets/HTML.png';
 import css from '../assets/CSS.png';
 import aaron from '../assets/personalPic.jpeg';
 
+
+
 class Home extends Component {
   constructor() {
     super();
@@ -30,6 +32,7 @@ class Home extends Component {
       <div className="App">
         <nav className='nav'>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('home')}>Home</p>
+          <p className='nav-option text' onClick={() => this.handleScrollToElement('about')}>About</p>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('skills')}>Skills</p>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('projects')}>Projects</p>
           <p className='nav-option text' onClick={() => this.handleScrollToElement('contact')}>Contact</p>
@@ -40,8 +43,9 @@ class Home extends Component {
           <h1 className='label text' id='ch'>ah.</h1>
           <p className='text charles' >DAVID AARON HATCH</p>
           <p className='title text' >WEB DEVELOPER</p>
-          <div className='intro'>
-            <p className='text about'>Hi, My name is Aaron Hatch. I'm a Web Developer with a passion for Design, and the drive to learn new things. I want the opportunity to expand my knowledge through development.
+          <div className='intro' id='about' ref='about'>
+            <h1 className='label text '>about.</h1>
+            <p className='text about' >Hi, My name is Aaron Hatch. I'm a Web Developer with a passion for Design, and the drive to learn new things. I want the opportunity to expand my knowledge through development.
             <br />
               <br />
               I love to solve puzzles. I believe working through and solving problems is one of the most rewarding feelings.  When I'm not coding, I enjoy travelling, filming, drawing, painting, and spending time with people I am close with. I love to create.
@@ -55,14 +59,14 @@ class Home extends Component {
           <div className='image-container'>
             <img src={html} alt='' className='skill-icon' />
             <img src={css} alt='' className='skill-icon' />
-            <img src={js} alt='' className='skill-icon' />
-            <img src={r} alt='' className='skill-icon' />
+            <img src={js} alt='' className='skill-icon' id='jsPic'/>
+            <img src={r} alt='' className='skill-icon' id='reactPic'/>
             <img src={rd} alt='' className='skill-icon' />
-            <img src={node} alt='' className='skill-icon' />
+            <img src={node} alt='' className='skill-icon' id='nodePic'/>
             <img src={pg} alt='' className='skill-icon' />
 
 
-            <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL  </p>
+            {/* <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL  </p> */}
           </div>
 
         </div>
@@ -93,7 +97,10 @@ class Home extends Component {
             <a className='contact-link' href='https://github.com/IAmAaronHatch' target='_blank' rel="noopener noreferrer">
               <img className='footer-img' src={github} alt='Github' height='40px' />
             </a>
+            <a href={"mailto:" + 'aaronhatch1218' + "@" + "gmail.com"}>
             <p className='text' id='email'>aaronhatch1218@gmail.com</p>
+
+            </a>
           </div>
         </div>
       </div>
