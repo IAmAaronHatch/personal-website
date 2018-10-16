@@ -57,7 +57,7 @@ class Home extends Component {
         <div className='section' id='skills' ref='skills'>
           <h1 className='label text skills'>skills.</h1>
           <div className='image-container'>
-            <img src={html} alt='' className='skill-icon' />
+            {/* <img src={html} alt='' className='skill-icon' />
             <img src={css} alt='' className='skill-icon' />
             <img src={js} alt='' className='skill-icon' id='jsPic'/>
             <img src={r} alt='' className='skill-icon' id='reactPic'/>
@@ -66,7 +66,37 @@ class Home extends Component {
             <img src={pg} alt='' className='skill-icon' />
 
 
-            {/* <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL  </p> */}
+            <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL  </p> */}
+            <div className='icon-container'>
+              <div className='iconfolder'>
+                <img src={html} alt='' id='htmlI' />
+                <p className='text'> HTML </p>
+              </div>
+              <div className='iconfolder2'>
+                <img src={css} alt='' id='cssI' />
+                <p className='text'> CSS </p>
+              </div>
+              <div className='iconfolder3'>
+                <img src={js} alt='' id='jsPic' />
+                <p className='text'> JAVASCRIPT </p>
+              </div>
+              <div className='iconfolder4'>
+                <img src={r} alt='' id='reactPic' />
+                <p className='text'> REACT </p>
+              </div>
+              <div className='iconfolder5'>
+                <img src={rd} alt='' id='reduxI' />
+                <p className='text'> REDUX </p>
+              </div>
+              <div className='iconfolder6'>
+                <img src={node} alt='' id='nodePic' />
+                <p className='text' id='nodeT'> NODE </p>
+              </div>
+              <div className='iconfolder7'>
+                <img src={pg} alt='' id='postI' />
+                <p className='text'> POSTGRESQL </p>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -98,7 +128,7 @@ class Home extends Component {
               <img className='footer-img' src={github} alt='Github' height='40px' />
             </a>
             <a href={"mailto:" + 'aaronhatch1218' + "@" + "gmail.com"}>
-            <p className='text' id='email'>aaronhatch1218@gmail.com</p>
+              <p className='text' id='email'>aaronhatch1218@gmail.com</p>
 
             </a>
           </div>

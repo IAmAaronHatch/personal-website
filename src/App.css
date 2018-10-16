@@ -269,14 +269,109 @@ a{
     width: 200px;
     height: 200px;
   }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+  }
+  .iconfolder {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .iconfolder2 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .iconfolder3 {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .iconfolder4 {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .iconfolder5 {
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .iconfolder6 {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .iconfolder7 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  #htmlI {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  #cssI {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  #reduxI {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 50px;
+  }
+  #postI {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+  }
   #jsPic {
-    height: 15vh;
-    padding-top: 10px;
+   height: 180px;
+    width: 180px;
+    margin-bottom: 30px;
+    
   }
   #reactPic {
-    height: 15vh;
+    height: 180px;
+    width: 180px;
+    margin-bottom: 30px;
   }
   #nodePic {
-    height: 16vh;
+    height: 230px;
+    width: 230px;
+    margin-bottom: 10px;
   }
 }
